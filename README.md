@@ -11,7 +11,7 @@ I made a complete analytics engineering data pipeline. This project automates ex
 ## The final Executive Dashboard
 The dashboard uses a clean "L-shape" structural layout, keeping high-level summaries and country filters on the left sidebar while prioritizing widescreen categorical analysis and trend lines on the right:
 
-![Executive Dashboard] (Dashboard_screenshot.png)
+[Executive Dashboard](Dashboard_screenshot.png)
 
 ## Skills & Tech Stack Shown
 * **Programming:** python, SQL
