@@ -1,6 +1,5 @@
 # End-to-End Supermarket Analytics Pipeline
-
-I made a complete analytics engineering data pipeline. This project automates extracting supermarket transactional data, modeling it into a relational database, and building an executive business intelligence report.
+I built a python to sqlite data pipeline that loads supermarket sales data into a relational database extracting supermarket transactional data, modeling it into a relational database, and building an executive business intelligence report.
 
 ## Data Pipeline Architecture
 1. **Extraction:** Raw transactional data is loaded from 'sales.csv' using python and the 'pandas' library.
@@ -11,10 +10,10 @@ I made a complete analytics engineering data pipeline. This project automates ex
 ## The final Executive Dashboard
 The dashboard uses a clean "L-shape" structural layout, keeping high-level summaries and country filters on the left sidebar while prioritizing widescreen categorical analysis and trend lines on the right:
 
-[Executive Dashboard](Dashboard_screenshot.png)
+[Practice dashboard](Dashboard_screenshot.png)
 
 ## Skills & Tech Stack Shown
 * **Programming:** python, SQL
 * **Data tools:** pandas, SQLite3
-* **Visualisation:** Microsost Power BI
+* **Visualization:** this is a practice report built on Microsoft's Financial sample dataset
 * **Environment:** VS code, Thonny, Windows Terminal, Git/Github
