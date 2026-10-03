@@ -1,19 +1,20 @@
-# End-to-End Supermarket Analytics Pipeline
-I built a python to sqlite data pipeline that loads supermarket sales data into a relational database extracting supermarket transactional data, modeling it into a relational database, and building an executive business intelligence report.
+# Supermarket Sales Analysis
 
-## Data Pipeline Architecture
-1. **Extraction:** Raw transactional data is loaded from 'sales.csv' using python and the 'pandas' library.
-2.**Transformation:** Cleaned column formatting to replace blank spaces with sql-friendly underscores.
-3.**Storage:** Structured rows are loaded directly into a local **sqlite** relational database ('supermarket_data.db').
-4.**Visualisation:** An optimized executive **Power Bi** dashboard connecting directly to the data storage layer.
+Analyzed 1,000 supermarket transactions using Python to find business insights.
 
-## The final Executive Dashboard
-The dashboard uses a clean "L-shape" structural layout, keeping high-level summaries and country filters on the left sidebar while prioritizing widescreen categorical analysis and trend lines on the right:
+## Tools Used
+- Python, Pandas, Matplotlib
 
-[Practice dashboard](Dashboard_screenshot.png)
+## Key Findings
+1. **Top Product:** Food and beverages generated the highest sales.
+2. **Top City:** Naypyitaw branch performed best.
+3. **Trend:** Sales peaked in January and stayed strong in Q1.
 
-## Skills & Tech Stack Shown
-* **Programming:** python, SQL
-* **Data tools:** pandas, SQLite3
-* **Visualization:** this is a practice report built on Microsoft's Financial sample dataset
-* **Environment:** VS code, Thonny, Windows Terminal, Git/Github
+## Charts
+- `chart1_product.png` - Sales by Product Line
+- `chart2_city.png` - Sales by City
+- `chart3_monthly.png` - Monthly Sales Trend
+
+## How to Run
+pip install pandas matplotlib
+python Analysis.py
